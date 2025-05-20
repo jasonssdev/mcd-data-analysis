@@ -1,0 +1,29 @@
+[project]
+name = "mcd-data-analysis"
+version = "0.1.0"
+description = "Data Analysis with Python"
+authors = [{ name = "Jason", email = "jasonssdev@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "ipykernel",
+    "ipywidget",
+    "python-dotenv",
+    "openpyxl",
+    "xlrd"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
