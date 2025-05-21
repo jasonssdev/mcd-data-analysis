@@ -12,10 +12,10 @@ dependencies = [
     "seaborn",
     "jupyterlab",
     "ipykernel",
-    "ipywidget",
+    "ipywidgets",
     "python-dotenv",
     "openpyxl",
-    "xlrd"
+    "xlrd",
 ]
 
 [build-system]
